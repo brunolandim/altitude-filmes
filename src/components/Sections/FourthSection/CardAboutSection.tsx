@@ -17,9 +17,9 @@ const CardAboutSection: FC<CardSectionProps> = ({ title, paragraf, paragrafAlign
   const titleAling = title === "Missão" ? "text-left" : "text-end";
 
   return (
-    <div className="relative w-[371px] h-[220px]">
+    <div className="relative md:w-[371px] md:h-[220px]">
       {/* Sombra */}
-      <div className={`absolute bg-[#1F723B]  w-1/3 h-[240px] ${shadow}  -translate-y-3 `}></div>
+      <div className={`absolute bg-[#1F723B]  w-1/3 md:h-[240px] ${shadow}  -translate-y-3 `}></div>
 
       {/* Card principal */}
       <div className="bg-[#232526] text-white p-6 rounded-md relative z-10 w-full h-full">

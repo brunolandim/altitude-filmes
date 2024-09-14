@@ -10,7 +10,7 @@ interface CardSectionProps {
 
 const CardSection: FC<CardSectionProps> = ({ title, titleGreen, paragraf }) => {
   return (
-    <div className="flex flex-col justify-center bg-[#232526] text-white p-5 w-[274px] h-[289px] rounded-lg">
+    <div className="flex flex-col justify-center bg-[#232526] text-white p-5 md:w-[274px] md:h-[289px] rounded-lg">
       <h1 className="text-2xl font-bold">
         {title} <span className="text-[#41F27C]">{titleGreen}</span>
       </h1>
