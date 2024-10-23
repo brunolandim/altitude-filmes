@@ -20,7 +20,7 @@ const Button: FC<ButtonProps> = ({ children, onClick, type = "button", disabled 
       type={type}
       onClick={onClick}
       disabled={disabled}
-      className={`w-full py-2 uppercase text-2xl font-bebas ${color.textColor} ${color.bg} ${
+      className={`w-full py-2 text-2xl font-bebas ${color.textColor} ${color.bg} ${
         color.bgHover
       } rounded-lg transition-all duration-200 ease-in-out ${disabled ? "opacity-50 cursor-not-allowed" : ""}`}
     >

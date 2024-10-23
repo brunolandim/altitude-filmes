@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
         <p>Equipamentos segurados e regularizados</p>
         <div>
           <img
-            src="/images/sarpas.png"
+            src="/images/sarpas.webp"
             alt="Sarpas"
             className="cursor-pointer"
             onClick={() => goToUrl("https://servicos.decea.mil.br/sarpas/")}
@@ -19,19 +19,19 @@ const Footer: React.FC = () => {
         </div>
         <div className="flex">
           <img
-            src="/images/decea.png"
+            src="/images/decea.webp"
             alt="Decea"
             className="cursor-pointer"
             onClick={() => goToUrl("https://www.decea.mil.br/drone/")}
           />
           <img
-            src="/images/anatel.png"
+            src="/images/anatel.webp"
             alt="Anatel"
             className="cursor-pointer"
             onClick={() => goToUrl("https://www.gov.br/pt-br/servicos/homologar-produtos-de-telecomunicacoes-anatel")}
           />
           <img
-            src="/images/anac.png"
+            src="/images/anac.webp"
             alt="Anac"
             className="cursor-pointer"
             onClick={() => goToUrl("https://www.gov.br/anac/pt-br/assuntos/drones")}

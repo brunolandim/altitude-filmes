@@ -11,9 +11,9 @@ const FourthSection: React.FC = () => {
       <div className="flex flex-col lg:flex-row w-full justify-between gap-10">
         <div>
           <div className="flex items-center gap-4 justify-center md:justify-start">
-            <img src="/images/grupo32.png" alt="grupo" />
-            <h1 className="text-3xl lg:text-5xl uppercase font-bold">
-              Sobre <span className="text-[#41F27C]">Nós</span>
+            <img src="/images/grupo32.webp" alt="grupo" />
+            <h1 className="text-3xl lg:text-5xl font-bold">
+              SOBRE <span className="text-[#41F27C]">NÓS</span>
             </h1>
           </div>
 
@@ -24,7 +24,7 @@ const FourthSection: React.FC = () => {
             excelência.
           </p>
         </div>
-        <img className="w-full lg:w-auto" src="/images/sobrenos.png" alt="Sobre Nós" />
+        <img className="w-full lg:w-auto" src="/images/sobrenos.webp" alt="Sobre Nós" />
       </div>
 
       <img className="w-64 lg:w-96 py-10 mx-auto" src="/svg/logo.svg" alt="logo" />
@@ -52,13 +52,13 @@ const FourthSection: React.FC = () => {
 
       <div id="servicos" className="grid grid-cols-1 lg:grid-cols-3 items-center py-10 lg:py-20 gap-6 lg:gap-10 w-full">
         <div className="w-full md:w-56 m-auto md:m-0">
-          <Button onClick={openWhatsApp} children="Solicite uma Cotação" bgColor="default" />
+          <Button onClick={openWhatsApp} children="SOLICITE UMA COTAÇÃO" bgColor="default" />
         </div>
         <p className="text-xl lg:text-2xl text-center lg:text-left">
           Soluções de Captação Aérea para Diversos Setores e Necessidades Específicas
         </p>
-        <p className="text-3xl lg:text-5xl font-bold text-center lg:text-right uppercase">
-          Nossos Serviços <span className="text-[#41F27C]">Especializados</span>
+        <p className="text-3xl lg:text-5xl font-bold text-center lg:text-right">
+          NOSSOS SERVIÇOS <span className="text-[#41F27C]">ESPECIALIZADOS</span>
         </p>
       </div>
 

@@ -12,7 +12,7 @@ const FifthSection: React.FC = () => {
           <img
             key={index}
             className="w-40 h-40 sm:w-48 sm:h-48 lg:w-72 lg:h-72 object-cover"
-            src={`/images/foto${index + 1}.png`}
+            src={`/images/foto${index + 1}.webp`}
             alt={`foto ${index + 1}`}
           />
         ))}
@@ -22,7 +22,7 @@ const FifthSection: React.FC = () => {
       <div
         className="flex w-full justify-center items-center "
         style={{
-          backgroundImage: "url('/images/banne.png')",
+          backgroundImage: "url('/images/banne.webp')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           height: "394px",
@@ -30,21 +30,22 @@ const FifthSection: React.FC = () => {
       >
         <div className="flex flex-col lg:flex-row text-white justify-between w-11/12 lg:w-3/4 m-auto items-center py-5 gap-6 lg:gap-0">
           <div className="flex flex-col gap-5 text-center lg:text-left">
-            <h1 className="font-bold text-2xl sm:text-3xl lg:text-4xl uppercase">
-              Transforme{" "}
+            <h1 className="font-bold text-2xl sm:text-3xl lg:text-4xl">
+              TRANSFORME{" "}
               <span className="text-[#41F27C]">
-                sua visão em <br className="hidden lg:block" /> realidade
+                SUA VISÃO EM <br className="hidden lg:block" /> REALIDADE
               </span>{" "}
-              com imagens aéreas <br className="hidden lg:block" />
-              em alta definição para o seu <br className="hidden lg:block" /> projeto!
+              COM IMAGENS AÉREAS <br className="hidden lg:block" />
+              EM ALTA DEFINIÇÃO PARA O SEU <br className="hidden lg:block" /> PROJETO!
             </h1>
+
             <p className="text-lg sm:text-xl">
               Contrate nossa empresa <span className="text-[#41F27C] font-bold">hoje mesmo</span>
               <br /> para imagens aéreas de qualidade incomparável.
             </p>
           </div>
           <div className="w-full md:w-56 m-auto md:m-0">
-            <Button onClick={openWhatsApp} children="Solicite uma Cotação" bgColor="default" />
+            <Button onClick={openWhatsApp} children="SOLICITE UMA COTAÇÃO" bgColor="default" />
           </div>
         </div>
       </div>

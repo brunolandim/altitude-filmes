@@ -65,7 +65,7 @@ const Header: React.FC = () => {
           {/* Mobile Button inside the Hamburger Menu */}
           <div className="mt-6 lg:hidden">
             <Button onClick={openWhatsApp} bgColor="default">
-              Contrate hoje mesmo
+              CONTRATE HOJE MESMO
             </Button>
           </div>
         </nav>
@@ -73,7 +73,7 @@ const Header: React.FC = () => {
         {/* Desktop Button */}
         <div className="hidden lg:block w-56">
           <Button onClick={openWhatsApp} bgColor="default">
-            Contrate hoje mesmo
+            CONTRATE HOJE MESMO
           </Button>
         </div>
       </div>

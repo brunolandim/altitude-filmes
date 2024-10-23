@@ -6,27 +6,27 @@ import { goToUrl } from "@/utils/goToUrl";
 
 const images = [
   {
-    url: "images/01.png",
+    url: "images/01.webp",
     alt: "Obras",
     youtubeUrl: "https://youtu.be/ecsdYC37e80",
   },
   {
-    url: "images/02.png",
+    url: "images/02.webp",
     alt: "Natureza",
     youtubeUrl: "https://youtu.be/E8ek_GmQ6FU",
   },
   {
-    url: "images/03.png",
+    url: "images/03.webp",
     alt: "Empreendimentos",
     youtubeUrl: "https://youtu.be/NJ9P0FmLT3o",
   },
   {
-    url: "images/04.png",
+    url: "images/04.webp",
     alt: "Agro",
     youtubeUrl: "https://youtu.be/krjqARmDP2o",
   },
   {
-    url: "images/05.png",
+    url: "images/05.webp",
     alt: "Obras",
     youtubeUrl: "https://youtu.be/IYmON863B1w",
   },
@@ -60,7 +60,7 @@ const ThirdSection: React.FC = () => {
           </p>
         </div>
         <div className="w-full md:w-56 m-auto md:m-0">
-          <Button onClick={openWhatsApp} children="Solicite uma Cotação" bgColor="default" />
+          <Button onClick={openWhatsApp} children="SOLICITE UMA COTAÇÃO" bgColor="default" />
         </div>
       </div>
     </section>
